@@ -1,8 +1,17 @@
 import React, {useState, useEffect} from 'react';
 import {FaBars} from 'react-icons/fa'
 import {IconContext} from 'react-icons/lib'
-import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu,
-NavItem, NavLinks, NavBtn, NavBtnLink, Image } from './NavbarStyle';
+import {
+  Nav, 
+  NavbarContainer, 
+  NavLogo, 
+  MobileIcon, 
+  NavMenu,
+  NavItem, 
+  NavLinks, 
+  NavBtn, 
+  NavBtnLink, 
+  Image } from './NavbarStyle';
 import logo from '../../images/logoSkin02.png';
 
 const Navbar = ({ toggle }) =>
