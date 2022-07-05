@@ -1,7 +1,7 @@
 import React from 'react';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
-import { BallTriangle } from  'react-loader-spinner'
+import { Rings } from  'react-loader-spinner'
 import styled from 'styled-components';
 
 const LoadingWrapper = styled.div`
@@ -17,7 +17,7 @@ const LoadingWrapper = styled.div`
 function Loading() {
     return (
     <LoadingWrapper>
-        <BallTriangle
+        <Rings
         type="Rings"
         color="#00BFFF"
         height={100}
