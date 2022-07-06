@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection/Hero';
 import About from '../components/About/About';
 import { homeObjOne,} from '../components/About/data';
 import Passion from '../components/Passion/Passion';
+import Projects from '../components/Projects/Projects';
 import Contact from '../components/Contact/Contact';
 import Footer from '../components/Footer/Footer';
 
@@ -23,6 +24,7 @@ const Home = () =>
         <HeroSection />
         <About {...homeObjOne}/>
         <Passion />
+        <Projects />
         <Contact />
 		<Footer />
         </>

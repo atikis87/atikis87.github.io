@@ -62,7 +62,6 @@ const Contact = () => {
                         </ContSpan>
                         <h3>
                             <ContText>Mail Me</ContText> <br />
-                            ati.radeone@gmail.com
                         </h3>
                     </ContactInfo>
 
