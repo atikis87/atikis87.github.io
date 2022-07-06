@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import AboutBackgroundX from '../../images/AboutBackground/aboutBackX.png';
-import AboutBackgroundSM from '../../images/AboutBackground/aboutBackSM.png';
+import AboutBackgroundX from '../../images/AboutBackground/aboutBack22.png';
+import AboutBackgroundSM from '../../images/AboutBackground/aboutBackSM22.png';
 
 export const AboutSection = styled.section`
     //background:linear-gradient(90deg, rgba(16,18,27,1) 0%, rgba(27,41,88,1) 50%, rgba(7,0,31,1) 100%);
