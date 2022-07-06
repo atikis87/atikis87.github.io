@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Navbar from '../components/Navbar/Navbar';
+import Sidebar from '../components/Sidebar/Sidebar';
 import HeroSection from '../components/HeroSection/Hero';
 import About from '../components/About/About';
 import { homeObjOne,} from '../components/About/data';
@@ -20,6 +21,7 @@ const Home = () =>
 
     return (
         <>
+        <Sidebar isOpen={isOpen} toggle={toggle} />
         <Navbar toggle={toggle} />
         <HeroSection />
         <About {...homeObjOne}/>
