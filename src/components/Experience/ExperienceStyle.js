@@ -8,7 +8,7 @@ export const ExpSection = styled.div`
 	min-height: 700px;
 	padding: 0;
 	overflow: hidden;
-    background-image: url(${ExpBack});
+    /*background-image: url(${ExpBack});*/
     background-size: cover;
 	position: relative;
     
