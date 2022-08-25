@@ -102,12 +102,3 @@ const breakPoints = [
 }
 
 export default Passion
-
-
-/*
-							<PassionNav>
-									<PassionArrow><FaArrowLeft /></PassionArrow>
-									<PassionArrow><FaArrowRight /></PassionArrow>
-							</PassionNav>
-
-*/

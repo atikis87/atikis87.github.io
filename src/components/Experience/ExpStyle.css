@@ -1,0 +1,63 @@
+h3 {
+    padding-top: 0.25em;
+  }
+
+
+.gg{
+  background-color: blue;
+}
+  
+  .vertical-timeline-element-content {
+    transition: transform 0.3s;
+    box-shadow: 0 0.35em 1.5em 0 #03b8fa, 0 0.4em 1.45em 0 #135ef3;
+    padding: 2em 3em;
+    background-color: #141b25;
+    color:#a4acc4;
+  }
+  .vertical-timeline-element-content:hover {
+    transform: scale(1.01);
+  }
+
+  .vertical-timeline-element-content-arrow {
+    border-right: 7px solid #141b25;
+  }
+  
+  .date {
+    color: #c9fbff;
+  }
+  
+  #description {
+    margin: 1.5em 0 2em 0;
+  }
+  
+  .button {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .workButton {
+    background-color: #06d6a0;
+  }
+  
+  .workButton:hover {
+    background-color: #0ac593;
+  }
+  
+  .schoolButton {
+    background-color: #f9c74f;
+  }
+  
+  .schoolButton:hover {
+    background-color: #f3bc3c;
+  }
+  
+  @media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+      display: block !important;
+      float: none !important;
+      color: #2c2c2c;
+      margin-top: 1.5em;
+    }
+  }
