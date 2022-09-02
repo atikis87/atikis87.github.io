@@ -110,7 +110,7 @@ const Navbar = ({ toggle }) =>
                         offset={-80}>Contact</NavLinks>
                     </NavItem>
                     <NavBtn>
-                        <NavBtnLink to="/archive">Resume</NavBtnLink>
+                        <NavBtnLink to="Attila Kiss CV.pdf" download="Attila Kiss CV.pdf">Resume</NavBtnLink>
                     </NavBtn>
                 </NavMenu>
 
