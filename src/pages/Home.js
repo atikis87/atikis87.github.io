@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar/Navbar';
 import Sidebar from '../components/Sidebar/Sidebar';
 import HeroSection from '../components/HeroSection/Hero';
 import Experiense from '../components/Experience/Experience';
+import Skills from '../components/Skills/Skills';
 import About from '../components/About/About';
 import { homeObjOne,} from '../components/About/data';
 import Passion from '../components/Passion/Passion';
@@ -28,6 +29,7 @@ const Home = () =>
         <About {...homeObjOne}/>
         <Passion />
         <Experiense />
+        <Skills />
         <Projects />
         <Contact />
 		<Footer />

@@ -11,7 +11,6 @@ import {ProjectsContainer,
         ProjectsP,
         ProBtn,
         ViewButton} from './ProjectsStyle';
-console.log(ProjectsData);
 const Projects = () =>
 {
     return (
