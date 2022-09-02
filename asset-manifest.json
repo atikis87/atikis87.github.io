@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a42bf266.css",
-    "main.js": "/static/js/main.38bfaf28.js",
+    "main.js": "/static/js/main.db5101a5.js",
     "static/media/video02.mp4": "/static/media/video02.b32d285281e1805bca6b.mp4",
     "static/media/Speed.jpg": "/static/media/Speed.1d1989748da92c5e77c7.jpg",
     "static/media/Portfolio V2.jpg": "/static/media/Portfolio V2.b596ef77b3d1061641ea.jpg",
@@ -13,21 +13,45 @@
     "static/media/COVID19-Statics.jpg": "/static/media/COVID19-Statics.491c79cd58f80877110c.jpg",
     "static/media/HotelBookingSystem.jpg": "/static/media/HotelBookingSystem.b4a16d1eb787509acd81.jpg",
     "static/media/Storybook.jpg": "/static/media/Storybook.600805a764776cd54061.jpg",
+    "static/media/php.png": "/static/media/php.f4e14a8686e0ecc57f7d.png",
     "static/media/SQL-Customers.jpg": "/static/media/SQL-Customers.d1579a115e1cc0c5c0ad.jpg",
     "static/media/T.C Team-Connection.jpg": "/static/media/T.C Team-Connection.e1c7e007eb139f8c10b5.jpg",
     "static/media/A.T.I Music Maker.jpg": "/static/media/A.T.I Music Maker.3a1f981534602fd33f58.jpg",
     "static/media/SportCalendar.jpg": "/static/media/SportCalendar.034f24bb42d581fdc2d5.jpg",
+    "static/media/vue.png": "/static/media/vue.df6ee7e0a8d0909d4fad.png",
+    "static/media/angular.png": "/static/media/angular.149e4f60322af67f6df8.png",
     "static/media/aboutBack22.png": "/static/media/aboutBack22.1b4bb180be1ba260ee73.png",
     "static/media/Portfolio V1.jpg": "/static/media/Portfolio V1.4afae6903c157afb8a6d.jpg",
     "static/media/aboutBackSM22.png": "/static/media/aboutBackSM22.4bf41d5171c612fa7030.png",
+    "static/media/cplusplus.png": "/static/media/cplusplus.1240ce157b70fb399c6c.png",
+    "static/media/mssql.svg": "/static/media/mssql.18f84630d77ee59a93814e1aa3bc9770.svg",
+    "static/media/krp.png": "/static/media/krp.9696e0d8a4fe51b76871.png",
+    "static/media/mongodb.svg": "/static/media/mongodb.d89a6eebb2b81e487ffc99f69a3f6ea4.svg",
+    "static/media/nodejs.svg": "/static/media/nodejs.52cbf9a89f44655c0375b9e9f88bf9c5.svg",
+    "static/media/postgresql.svg": "/static/media/postgresql.ae92b576b8ea41666538c0756df27969.svg",
+    "static/media/styled-components.svg": "/static/media/styled-components.2e00d138caafe530a6ffdaf27badd9e0.svg",
+    "static/media/react.svg": "/static/media/react.add74742e9e8f8827f7fa666dca760db.svg",
+    "static/media/digital-ocean.svg": "/static/media/digital-ocean.744a69736c6a24a3a3debe11e39da702.svg",
+    "static/media/react-bootstrap.svg": "/static/media/react-bootstrap.534ba5749ea53d6d943b273291be8174.svg",
+    "static/media/sass-1.svg": "/static/media/sass-1.8aa78a8393470431c8036541f0708bd7.svg",
+    "static/media/css3.svg": "/static/media/css3.8fba365c2c5824342874c7a674943eb8.svg",
+    "static/media/react-router.svg": "/static/media/react-router.a87b722746890c8dcd6e20f04b6d53cd.svg",
+    "static/media/go-6.svg": "/static/media/go-6.4c88fbf92cd36c4790582de373b6ee4f.svg",
+    "static/media/python.svg": "/static/media/python.e6d7dc739a91892bbf1f6262412046dd.svg",
+    "static/media/bootstrap-4.svg": "/static/media/bootstrap-4.997c463dca63c915b9a51f1caedef8e1.svg",
     "static/media/school.svg": "/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
+    "static/media/github.svg": "/static/media/github.740db6be1c6248ce6abab3577896d4d9.svg",
+    "static/media/javascript.svg": "/static/media/javascript.ba40d6a9629bf521391e764a593f9df3.svg",
+    "static/media/typescript.svg": "/static/media/typescript.a6305a733dd55243980aec55f96f70c5.svg",
+    "static/media/git-icon.svg": "/static/media/git-icon.c60b7e5ae8ec2562f23fdddcab300026.svg",
     "index.html": "/index.html",
     "static/media/work.svg": "/static/media/work.3710b62484ed638074240e99317c6c60.svg",
+    "static/media/django.svg": "/static/media/django.0779fca292c0a723b464bcb7534f802c.svg",
     "main.a42bf266.css.map": "/static/css/main.a42bf266.css.map",
-    "main.38bfaf28.js.map": "/static/js/main.38bfaf28.js.map"
+    "main.db5101a5.js.map": "/static/js/main.db5101a5.js.map"
   },
   "entrypoints": [
     "static/css/main.a42bf266.css",
-    "static/js/main.38bfaf28.js"
+    "static/js/main.db5101a5.js"
   ]
 }
