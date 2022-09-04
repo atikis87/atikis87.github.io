@@ -14,6 +14,10 @@ export const TimeLine = styled.div`
   max-width: 1300px;
   margin: auto;
   padding: 30px 40px;
+
+  @media screen and (max-width: 600px){
+        padding: 10px 20px;
+    }
 `
 
 export const Block = styled.div`
@@ -56,97 +60,8 @@ export const Block = styled.div`
         border-radius: 50%;
   }
 
-
-
-
+    @media screen and (max-width: 980px){
+    width: calc(100% - 20px);
+    margin-left: auto;
+    }
 `
-
-
-
-
-
-
-
-
-
-/*
-export const ExpRow = styled.div`
-    padding:80px 20px 80px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
-    @media screen and (min-width: 992px){
-            width: 88vw;
-    }
-    @media screen and (min-width: 1200px){
-            width: 85vw;
-    }
-    @media screen and (max-width: 480px){
-            display:block;
-    }
-
-
-
-`
-export const ExpItem = styled.div`
-    height:100px;
-    background-color: rgb(20, 27, 37);
-    transition: transform 0.3s;
-    padding: 0 2.5rem;
-    margin: 2rem;
-    border-left: 1px solid #fff;
-    position: relative;
-    color: #d0d0d0;
-    border: none;
-    box-shadow: 0 0.35em 1.5em 0 #03b8fa, 0 0.4em 1.45em 0 #135ef3 !important;
-
-    h2{
-        padding: 0.6rem 0;
-        text-transform: uppercase;
-        font-weight: 600;
-        font-size: 1.2rem;
-        
-    }
-
-    span{
-        background: #252525;
-        border-radius: 15px;
-        padding: 0.25rem 0.7rem;
-        text-transform: uppercase;
-        font-size: 0.8rem;
-        font-weight: 600;
-    }
-
-    p{
-        line-height: 1.7;
-        font-size: 1rem;
-        padding-bottom: 0;
-    }
-
-    &:hover{
-        transform: scale(1.05);
-        cursor:pointer;
-    }
-    
-    @media screen and (max-width: 480px){
-        height:200px;
-    }
-
-`
-
-export const ExpIcon = styled.div`
-    position: absolute;
-    top: 0;
-    width: 50px;
-    height: 50px;
-    background: #72b626;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: -25px;
-
-`
-
-
-*/

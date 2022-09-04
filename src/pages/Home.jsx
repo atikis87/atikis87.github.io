@@ -20,8 +20,6 @@ const Home = () =>
     {
         setIsOpen(!isOpen)
     }
-
-
     return (
         <>
         <Sidebar isOpen={isOpen} toggle={toggle} />
@@ -29,14 +27,13 @@ const Home = () =>
         <HeroSection />
         <About {...homeObjOne}/>
         <Passion />
-        <Education/>
-        <Skills />
         <Experiense />
+        <Skills />
+        <Education/>
         <Projects />
         <Contact />
 		<Footer />
         </>
     );
 };
-
 export default Home;

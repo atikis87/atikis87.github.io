@@ -53,11 +53,10 @@ h3 {
     background-color: #f3bc3c;
   }
   
-  @media only screen and (max-width: 1700px) {
+  @media only screen and (max-width: 1170px) {
     .vertical-timeline-element-date {
-      display: block !important;
-      float: none !important;
-      color: #2c2c2c;
+      display: block;
+      float: none;
       margin-top: 1.5em;
     }
   }

@@ -17,8 +17,8 @@ import {ContactSection,
         Messagelink} from './ContactStyle';
 import {FaRegEnvelopeOpen,
         FaGithub, 
-        FaLinkedin, 
-        FaYoutube} from 'react-icons/fa';
+        FaLinkedin,
+        FaTelegram} from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
 import {RowOne,
         BtnWrap} from '../About/AboutStyle';
@@ -48,11 +48,7 @@ const Contact = () => {
                     <ProgressL></ProgressL>
                 </ContactTitle>
             </RowOne>
-
-
-
             <ContactRow>
-
                 <RowLeft>
                         <h2>feel free to ask me!</h2>
                         <TextP>Leave your message here. I will get back to you ASAP.</TextP>
@@ -64,14 +60,12 @@ const Contact = () => {
                             <ContText>Mail Me</ContText> <br />
                         </h3>
                     </ContactInfo>
-
                     <BtnWrap>
-                        <SocialIcon href="/"><FaGithub/></SocialIcon>
-                        <SocialIcon href="/"><FaLinkedin/></SocialIcon>
-                        <SocialIcon href="/"><FaYoutube/></SocialIcon>
+                        <SocialIcon href="https://github.com/atikis87" target="_blank" aria-label="Github"><FaGithub/></SocialIcon>
+                        <SocialIcon href="https://www.linkedin.com/in/attila-kiss-2330791b4/" target="_blank" aria-label="LinkedIn"><FaLinkedin/></SocialIcon>
+                        <SocialIcon href="mailto:ati.radeone@gmail.com" target="_blank" aria-label="Mail"><FaTelegram/></SocialIcon>
                     </BtnWrap>
                 </RowLeft>
-
                 <RowRight>
                     <ContactForm onSubmit={sendEmail}>
                         <input type="text" className="form-control" placeholder="Name" name="name"/>
@@ -83,38 +77,9 @@ const Contact = () => {
                         </BtnWrap>
                     </ContactForm>
                 </RowRight>
-
-
             </ContactRow>
-
-
         </ContactWrapper>
     </ContactSection>
     )
 }
-
 export default Contact;
-
-
-
-
-/*
-                <RowRight onSubmit={sendEmail}>
-                        <ContactForm>
-                            <input type="text" placeholder="Name" name="name"></input>
-                            <input type="email" placeholder="Email" name="email"></input>
-                            <input type="text" placeholder="Subject" name="subject"></input>
-                        </ContactForm>
-                        <Area cols="30" rows="5" placeholder="Your message" name="message"></Area>
-                        <BtnWrap>
-                            <BtnLink type="submit" value="Send Message">send message</BtnLink>
-                        </BtnWrap>
-                </RowRight>
-
-
-
-
-
-
-
-*/

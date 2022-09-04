@@ -11,6 +11,7 @@ export const ExpSection = styled.div`
     /*background-image: url(${ExpBack});*/
     background-size: cover;
 	position: relative;
+    padding: 80px 0px 80px;
     
 `
 
@@ -65,5 +66,8 @@ export const Line = styled.div`
         border-radius: 50px;
     }
 
+    @media only screen and (max-width:800px) {
+		left:-10px;
+	}
 `
 

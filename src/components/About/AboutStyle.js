@@ -47,14 +47,22 @@ export const AboutTitle = styled.div`
     font-size: 40px;
     color: #a4acc4;
     letter-spacing: 3px;
+
+    @media screen and (max-width: 800px){
+        font-size: 25px;
+    }
 `
 
 export const MySpan = styled.span`
     color:#037FFF;
-    text-shadow: 0 0 5px #037FFF;
+    /*text-shadow: 0 0 5px #037FFF;*/
     top:100%;
     left: 0;
     font-size: 2.5rem;
+
+    @media screen and (max-width: 800px){
+        font-size: 25px;
+    }
 `
 
 
@@ -86,6 +94,11 @@ export const ProgressLine = styled.div`
         width: 9rem;
         height: .4rem;
         border-radius: 50px;
+    }
+
+    @media screen and (max-width: 800px){
+        font-size: 25px;
+        left:-10px;
     }
 `
 

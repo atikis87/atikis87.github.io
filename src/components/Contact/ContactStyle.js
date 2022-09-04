@@ -24,17 +24,22 @@ export const ContactTitle = styled.div`
     text-transform: uppercase;
     color: #a4acc4;
     letter-spacing: 3px;
+
+    @media only screen and (max-width:800px) {
+        font-size:25px;
+	}
 `
 
 export const ContactSpan = styled.span`
     color:#037FFF;
-    text-shadow: 0 0 5px #037FFF;
     top:100%;
     left: 0;
     font-size: 30px;
+
+    @media only screen and (max-width:800px) {
+        font-size:25px;
+	}
 `
-
-
 
 
 export const ProgressL = styled.div`
@@ -49,7 +54,6 @@ export const ProgressL = styled.div`
         bottom: 0;
         position: absolute;
         left: 0;
-        box-shadow: 0 0 5px #0381ff38;
         background-color: #0381ff38;
         width: 13rem;
         height: .4rem;
@@ -66,6 +70,10 @@ export const ProgressL = styled.div`
         height: .4rem;
         border-radius: 50px;
     }
+
+    @media only screen and (max-width:800px) {
+		left:0px;
+	}
 `
 
 export const ContactRow = styled.div`

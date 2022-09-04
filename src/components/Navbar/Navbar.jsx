@@ -14,33 +14,23 @@ import {
   Image } from './NavbarStyle';
 import logo from '../../images/logoSkin02.png';
 
-const Navbar = ({ toggle }) =>
-{
+const Navbar = ({ toggle }) =>{
     const [scrollNav, setScrollNav] = useState(false);
-
-    const changeNav = () =>
-    {
-        if(window.scrollY > 80)
-        {
+    const changeNav = () =>{
+        if(window.scrollY > 80){
             setScrollNav(true)
         }
-        else
-        {
+        else{
             setScrollNav(false)
         }
     }
-
-    useEffect(()=>
-    {
+    useEffect(()=>{
         window.addEventListener('scroll', changeNav)
     }, []);
-
-    const toggleHome = () =>
-    {
+    const toggleHome = () =>{
         window.location.reload();
         //scroll.scrollToTop();
     }
-    
     return (
     <>
     <IconContext.Provider value={{color: '#fff'}}>
@@ -70,12 +60,12 @@ const Navbar = ({ toggle }) =>
                         offset={-80}>Passion</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='education'
+                        <NavLinks to='experience'
                         smooth={true}
                         duration={1200}
                         spy={true}
                         exact='true'
-                        offset={-80}>Education</NavLinks>
+                        offset={-80}>Experience</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to='skills'
@@ -86,12 +76,12 @@ const Navbar = ({ toggle }) =>
                         offset={-80}>Skills</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='experience'
+                        <NavLinks to='education'
                         smooth={true}
                         duration={1200}
                         spy={true}
                         exact='true'
-                        offset={-80}>Experience</NavLinks>
+                        offset={-80}>Education</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to='projects'
@@ -113,12 +103,10 @@ const Navbar = ({ toggle }) =>
                         <NavBtnLink to="Attila Kiss CV.pdf" download="Attila Kiss CV.pdf">Resume</NavBtnLink>
                     </NavBtn>
                 </NavMenu>
-
             </NavbarContainer>
         </Nav>
         </IconContext.Provider>
     </>
     );
 };
-
 export default Navbar;

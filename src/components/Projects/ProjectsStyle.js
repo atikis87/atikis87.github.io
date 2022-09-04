@@ -65,6 +65,11 @@ export const ProLine = styled.div`
         border-radius: 50px;
     }
 
+
+    @media screen and (max-width: 800px){
+        left:-10px;
+    }
+
 `
 
 
