@@ -68,8 +68,19 @@ export const HeroH2 = styled.h2`
     color: #16d4ed;
     margin-top: 10px;
     font-size: clamp(40px, 8vw, 80px);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 `
 
+export const HeroName = styled.h1`
+    margin: 0px;
+    font-size: clamp(40px, 8vw, 80px);
+    font-weight: 600;
+    color: #ed1649;
+    line-height: 1.1;
+	transform: scale(1);
+	animation: pulse 2s infinite;
+
+`
 
 export const HeroH3 = styled.h3`
     text-align: center;
@@ -88,17 +99,6 @@ export const HeroH3 = styled.h3`
             font-size: 18px;
             margin: 0 0 20px 2px;
         }
-`
-
-export const HeroName = styled.h1`
-    margin: 0px;
-    font-size: clamp(40px, 8vw, 80px);
-    font-weight: 600;
-    color: #ed1649;
-    line-height: 1.1;
-	transform: scale(1);
-	animation: pulse 2s infinite;
-
 `
 
 export const HeroP = styled.p`

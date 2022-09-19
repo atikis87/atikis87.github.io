@@ -12,6 +12,9 @@ import Projects from '../components/Projects/Projects';
 import Contact from '../components/Contact/Contact';
 import Footer from '../components/Footer/Footer';
 
+/*MouseRing */
+import DotRing from "../components/DotRing/DotRing";
+
 const Home = () =>
 {
     const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +25,7 @@ const Home = () =>
     }
     return (
         <>
+        <DotRing />
         <Sidebar isOpen={isOpen} toggle={toggle} />
         <Navbar toggle={toggle} />
         <HeroSection />
